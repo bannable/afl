@@ -1,0 +1,17 @@
+afl-analyze
+afl-as
+afl-clang
+afl-clang++
+afl-clang-fast
+afl-clang-fast++
+afl-cmin
+afl-fuzz
+afl-g++
+afl-gcc
+afl-gotcpu
+afl-plot
+afl-showmap
+afl-tmin
+afl-whatsup
+*.so
+*.o
