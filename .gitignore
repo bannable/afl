@@ -1,17 +1,24 @@
+# Built objects and libraries
+*.o
+*.so
+
+# Standard AFL build
 afl-analyze
 afl-as
 afl-clang
 afl-clang++
-afl-clang-fast
-afl-clang-fast++
-afl-cmin
 afl-fuzz
 afl-g++
 afl-gcc
 afl-gotcpu
-afl-plot
 afl-showmap
 afl-tmin
-afl-whatsup
-*.so
-*.o
+as
+
+# LLVM mode
+/afl-clang-fast
+/afl-clang-fast++
+
+# QEMU mode
+/afl-qemu-trace
+/qemu_mode/qemu-*
