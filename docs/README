@@ -15,6 +15,13 @@ american fuzzy lop
 
   ** See QuickStartGuide.txt if you don't have time to read this file. **
 
+0) Changes in this fork
+-----------------------
+- Added a dictionary for mruby
+- Marc Heuse's QEMU mode performance increases merged
+  https://abiondo.me/2018/09/21/improving-afl-qemu-mode/
+  https://github.com/abiondo/afl
+
 1) Challenges of guided fuzzing
 -------------------------------
 
